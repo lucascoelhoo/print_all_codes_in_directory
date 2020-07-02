@@ -5,7 +5,7 @@
 - Usos: 
 	- \> python print_codes.py <nome_arquivo_saída> <caminho_pasta_alvo_do_processamento>
 
-- Saída: Um arquivo, um em formato ".txt" na pasta em que o script estiver rodando.
+- Saída: Um arquivo em formato ".txt" na pasta em que o script estiver rodando.
 
 - Informações adicionais: 
 	
@@ -13,7 +13,7 @@
 
 - Observações:
 	
-	- O programa dará erro para arquivos de mídia e imagens. Os seguintes formatos já estão filtrados:
-		- PNG, JPEG, JPG E ICO
-	- Se houver outros formatos gerando erro na saída do programa, é necessário adicionar no "if" dentro da função.
-	- Você pode usar o arquivo em .txt e abri-lo no Notepad++ ou outro editor para salvar como pdf. Não vale a pena uma aplicação em python que salve em pdf pelo fato de haver caracteres que não são triviais de converter, o índice de erros é muito altos.
+	- O programa dará erro para arquivos de mídia, imagens, fontes e outros que não sejam visualizáveis em um editor de códigos padrão. Os seguintes formatos já estão filtrados:
+		- PNG, JPEG, JPG, ICO, TIFF, TTF, WOFF, WOFF2 e EOT
+	- Se houver outros formatos gerando erro na saída do programa, é necessário adicionar no "if" dentro da função, apenas cole uma linha a mais.
+	- Você pode usar o arquivo em .txt e abri-lo no Notepad++ ou outro editor para salvar como pdf. Não vale a pena uma aplicação em python que salve em pdf pelo fato de haver caracteres que não são triviais de converter, o índice de erros é muito altos (se mesmo assim desejar, basta descomentar as linhas comentadas no código).
