@@ -1,4 +1,4 @@
-- print_pdf_all_codes_in_directory
+# print_pdf_all_codes_in_directory
 
 - Objetivo: Script que lê de forma recursiva todos os arquivos dentro de uma pasta (inclusive suas subpastas), independente do formato, junta todos os textos e códigos e salva em formato ".pdf" e ".txt".
 
